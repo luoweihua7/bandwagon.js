@@ -1,0 +1,7 @@
+node_modules
+._*
+.DS_Store
+.git
+.npmrc
+npm-debug.log
+yarn-debug.log

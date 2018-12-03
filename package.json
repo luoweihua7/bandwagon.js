@@ -1,0 +1,25 @@
+{
+  "name": "bandwagon.js",
+  "version": "0.1.0",
+  "description": "Bandwagon API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luoweihua7/bandwagon.js.git"
+  },
+  "keywords": [
+    "bandwagon"
+  ],
+  "dependencies": {
+    "axios": "^0.18.0"
+  },
+  "author": "Larify",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/luoweihua7/bandwagon.js/issues"
+  },
+  "homepage": "https://github.com/luoweihua7/bandwagon.js#readme"
+}
