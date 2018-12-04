@@ -1,13 +1,15 @@
 # Bandwagon.js ![](https://img.shields.io/npm/v/bandwagon.js.svg)
 
 Bandwagon host api
-
-# API
-
 Support all bandwagonhost api.
 Check API document [here](https://kiwivm.64clouds.com/main-exec.php?mode=api) or [PDF](./API.pdf)
 
-Example
+# Install
+```
+npm install bandwagon.js
+```
+
+# Example
 ```js
 const Bandwagon = require('bandwagon.js')
 let bwg = new Bandwagon({veid:'YOUR VEID',api_key:'YOUR API KEY'})
@@ -24,7 +26,7 @@ bwg.resetRootPassword().then(res => {
 bwg.createSnapshot({description:'NEW_SNAPSHOT'}).then(res=>console.log(res.data))
 ```
 
-API List:
+# APIs:
 
 ## start()
 Starts the VPS
