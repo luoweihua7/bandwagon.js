@@ -1,6 +1,6 @@
 {
   "name": "bandwagon.js",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Bandwagon API",
   "main": "index.js",
   "scripts": {
