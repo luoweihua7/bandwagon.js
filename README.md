@@ -1,4 +1,4 @@
-# Bandwagon.js
+# Bandwagon.js ![](https://img.shields.io/npm/v/bandwagon.js.svg)
 
 Bandwagon host api
 
