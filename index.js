@@ -139,9 +139,10 @@ const API_METHODS = {
 }
 
 class Bandwagon {
-  constructor({ veid, api_key }) {
+  constructor({ veid, api_key, method = 'GET' }) {
     this._veid = veid
     this._api_key = api_key
+    this._method = method
     this._baseUrl = `https://api.64clouds.com/v1/`
 
     this.addMethods()
@@ -174,7 +175,7 @@ class Bandwagon {
             api_key: this._api_key,
             ...data
           },
-          method: 'GET',
+          method: this._method || 'GET',
         };
 
         let result = await axios(options)
