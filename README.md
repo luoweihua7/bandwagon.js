@@ -14,7 +14,7 @@ npm install bandwagon.js
 ```js
 const Bandwagon = require('bandwagon.js')
 
-// method is optional, allow "POST" or "GET"
+// method is optional, allow "POST" or "GET", defaults: "GET"
 let bwg = new Bandwagon({veid:'YOUR VEID', api_key:'YOUR API KEY', method: 'POST'})
 
 bwg.getServiceInfo().then(res=>console.log(res.data));
