@@ -28,6 +28,16 @@ bwg.resetRootPassword().then(res => {
 bwg.createSnapshot({description:'SOME_SNAPSHOT_DESC'}).then(res=>console.log(res.data))
 ```
 
+Or
+
+```js
+const Bandwagon = require('bandwagon.js')
+
+let bwg = new Bandwagon()
+// Pass veid/api_key when call API
+bwg.getLiveServiceInfo({veid:'YOUR VEID', api_key:'YOUR API KEY'}).then(res => console.log(res.data))
+```
+
 ## Methods:
 ### start()
 Starts the VPS

@@ -139,7 +139,7 @@ const API_METHODS = {
 }
 
 class Bandwagon {
-  constructor({ veid, api_key, method = 'GET' }) {
+  constructor({ veid, api_key, method = 'GET' } = {}) {
     this._veid = veid
     this._api_key = api_key
     this._method = method
